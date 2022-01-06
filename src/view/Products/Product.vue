@@ -1,5 +1,6 @@
 <template>
-  
+  <div class="jagoda">
+  </div>
 </template>
 
 <script>
