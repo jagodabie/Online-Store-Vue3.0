@@ -1,6 +1,9 @@
 <template>
   <div>
-     <h1>Działa</h1> 
+    <router-link to="/products">Products</router-link> |
+    <router-link to="/createProduct">Add product</router-link> |
+     <router-link to="/cart">cart</router-link>      
+  <router-view/>
   </div>
 </template>
 
@@ -9,9 +12,6 @@
 
 export default {
   name: 'App',
-  components: {
-
-  }
 }
 </script>
 
