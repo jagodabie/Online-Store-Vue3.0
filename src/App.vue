@@ -1,17 +1,16 @@
 <template>
   <div>
-    <router-link to="/products">Products</router-link> |
-    <router-link to="/createProduct">Add product</router-link> |
-     <router-link to="/cart">cart</router-link>      
-  <router-view/>
+      <Navigation />
   </div>
 </template>
 
 <script>
 
+import Navigation from './components/layout/Navigation';
 
 export default {
   name: 'App',
+  components:{ Navigation }
 }
 </script>
 
